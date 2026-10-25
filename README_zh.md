@@ -445,13 +445,3 @@ data/                                            首次运行后自动生成：�
 工程中已包含 `Linux` 导出预设（x86_64，pck 嵌入程序，与 Windows 版相同），输出到 `../build/export/linux/PC98GameHall.x86_64`。
 通过 **编辑器 → 管理导出模板…** 安装 Godot 4.7.2 官方导出模板后直接导出即可（预设不使用自定义模板；官方模板导出的程序约 70 MB，比我提供的精简版大）。
 GDExtension 与内核（`addons/pc98/bin/*.linux*.so`、`np2kai_libretro.so`）会自动复制到程序旁边。
-
----
-
-## 赞助 / 支持作者
-
-如果这个项目对你有帮助，欢迎请作者喝杯咖啡 ☕（完全自愿，软件本身永久免费）：
-
-- **爱发电**（支持支付宝 / 微信支付）：TODO: add your link
-- **Ko-fi**（信用卡 / PayPal）：TODO: add your link
-- **GitHub Sponsors**：TODO: add your link
