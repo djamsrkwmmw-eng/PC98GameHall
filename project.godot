@@ -1,0 +1,42 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="PC-98 游戏厅"
+config/description="PC-98 emulator frontend (NP2kai core)"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://assets/icon_256.png"
+config/windows_native_icon="res://assets/icon.ico"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="PC98GameHall"
+config/quit_on_go_back=false
+
+[autoload]
+
+Store="*res://scripts/store.gd"
+
+[debug]
+
+file_logging/enable_file_logging.pc=false
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=800
+window/size/resizable=true
+window/handheld/orientation=6
+
+[rendering]
+textures/vram_compression/import_etc2_astc=true
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=1
+shader_compiler/shader_cache/enabled.pc=false
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://i18n/ui.zh_CN.translation", "res://i18n/ui.zh_TW.translation", "res://i18n/ui.en.translation", "res://i18n/ui.ja.translation")
+locale/fallback="zh_CN"

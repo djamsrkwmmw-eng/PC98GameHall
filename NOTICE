@@ -1,0 +1,44 @@
+PC-98 Game Hall
+Copyright (c) 2026 djamsrkwmmw-eng
+
+The MIT License in LICENSE covers the original code and assets of this
+project (GDScript, scenes, UI assets, translations and documentation).
+Third-party components that are bundled with this project or its release
+packages keep their own licenses. The full texts are in THIRD_PARTY_LICENSES/.
+
+----------------------------------------------------------------------------
+NP2kai (Neko Project II kai) libretro core
+  Files:    addons/pc98/bin/**/np2kai_libretro.{dll,so}
+  Upstream: https://github.com/AZO234/NP2kai
+  Built from upstream commit 5939e0c6d5985c4c08fc70f289a83290e5d3e6f7
+  License:  MIT (c) AZO and the Neko Project II developers. Some components
+            carry their own licenses (BSD, zlib, MIT and others); see
+            THIRD_PARTY_LICENSES/np2kai/.
+  Note:     The fmgen FM sound module (c) cisc may be redistributed freely,
+            but commercial use requires the author's permission.
+
+  The core is shipped as an unmodified, separately loaded shared library.
+  Its complete source code is available from the upstream repository above,
+  and you can rebuild it and swap in your own build by replacing the
+  np2kai_libretro.dll / .so file next to the program (or in addons/pc98/bin/).
+
+----------------------------------------------------------------------------
+Godot Engine
+  https://godotengine.org
+  License: MIT (c) Godot Engine contributors, Juan Linietsky, Ariel Manzur.
+  See THIRD_PARTY_LICENSES/godot/ (LICENSE.txt, COPYRIGHT.txt).
+
+godot-cpp (GDExtension C++ bindings)
+  https://github.com/godotengine/godot-cpp
+  License: MIT. See THIRD_PARTY_LICENSES/godot-cpp/.
+
+stb_truetype
+  https://github.com/nothings/stb
+  License: MIT / Public Domain. See THIRD_PARTY_LICENSES/stb/.
+
+----------------------------------------------------------------------------
+The PC98Emulator GDExtension plugin (addons/pc98/) is included as prebuilt
+binaries only.
+
+This project ships no PC-98 BIOS, font ROM or game images. Use only files
+that you legally own.

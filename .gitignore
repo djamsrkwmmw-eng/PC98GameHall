@@ -1,0 +1,37 @@
+# Godot
+.godot/
+export_credentials.cfg
+override.cfg
+*.tmp
+
+# Export outputs / build artifacts
+*.pck
+*.exe
+*.apk
+*.aab
+*.idsig
+/PC98GameHall.x86_64
+build/
+dist/
+export/
+*.zip
+*.tar.gz
+
+# Portable-mode user data
+data/
+
+# Disk images and BIOS (never commit)
+*.hdi
+*.fdi
+*.d88
+*.hdm
+*.nhd
+*.thd
+BIOS/
+bios/
+*.rom
+*.ROM
+
+# Signing keys
+*.keystore
+*.jks

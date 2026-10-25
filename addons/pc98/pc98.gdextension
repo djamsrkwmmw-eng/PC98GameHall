@@ -1,0 +1,28 @@
+[configuration]
+
+entry_symbol = "pc98_library_init"
+compatibility_minimum = "4.7"
+reloadable = false
+
+[libraries]
+
+windows.debug.x86_64 = "res://addons/pc98/bin/libpc98.windows.template_release.x86_64.dll"
+windows.release.x86_64 = "res://addons/pc98/bin/libpc98.windows.template_release.x86_64.dll"
+linux.debug.x86_64 = "res://addons/pc98/bin/libpc98.linux.template_release.x86_64.so"
+linux.release.x86_64 = "res://addons/pc98/bin/libpc98.linux.template_release.x86_64.so"
+
+android.debug.arm64 = "res://addons/pc98/bin/libpc98.android.template_release.arm64.so"
+android.release.arm64 = "res://addons/pc98/bin/libpc98.android.template_release.arm64.so"
+android.debug.x86_64 = "res://addons/pc98/bin/libpc98.android.template_release.x86_64.so"
+android.release.x86_64 = "res://addons/pc98/bin/libpc98.android.template_release.x86_64.so"
+
+[dependencies]
+
+windows.x86_64 = {
+"res://addons/pc98/bin/np2kai_libretro.dll": ""
+}
+linux.x86_64 = {
+"res://addons/pc98/bin/np2kai_libretro.so": ""
+}
+android.arm64 = { "res://addons/pc98/bin/android/arm64/libnp2kai_libretro.so": "" }
+android.x86_64 = { "res://addons/pc98/bin/android/x86_64/libnp2kai_libretro.so": "" }
