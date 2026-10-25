@@ -10,6 +10,12 @@
 
 ---
 
+## 截图
+
+| 游戏详情 | 游戏运行 | 全屏工具栏 |
+|---|---|---|
+| ![游戏详情](docs/screenshot_game_detail_en.png) | ![游戏运行](docs/screenshot_ingame.png) | ![全屏工具栏](docs/screenshot_fullscreen_toolbar.png) |
+
 ## 1. 下载文件（三个版本 + 工程）
 
 | 文件 | 内容 | 用法 |

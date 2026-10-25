@@ -24,6 +24,12 @@ It is built on **Godot 4.7** and wraps the **NP2kai** (Neko Project II kai) libr
 - **Windows, Linux and Android** builds.
 - **Crash protection:** errors in the emulator core stop emulation and show a message instead of taking down the app.
 
+## Screenshots
+
+| Game detail | In game | Fullscreen toolbar |
+|---|---|---|
+| ![Game detail](docs/screenshot_game_detail_en.png) | ![In game](docs/screenshot_ingame.png) | ![Fullscreen toolbar](docs/screenshot_fullscreen_toolbar.png) |
+
 ## Download
 
 Get the latest packages from the [**Releases**](https://github.com/djamsrkwmmw-eng/PC98GameHall/releases) page:
